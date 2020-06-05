@@ -1,2 +1,0 @@
-# CoreyTCox.github.io
-Portfolio
