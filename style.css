@@ -1,0 +1,114 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+html {
+    font-size: 16px;
+    margin-top: 2em;
+}
+
+body {
+    background-color: #333333;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+
+   background: seagreen;
+}
+
+nav a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: pink;
+}
+
+header,
+body,
+footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#home {
+    margin: 0em;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header span {
+    font-size: 1.5em;
+    color: seagreen;
+}
+
+#about-me img {
+    padding: 1em;
+}
+
+section {
+    margin: 1em 0;
+    padding-top: 2em;
+    min-height: 10em;
+}
+
+section > p {
+    margin: 1em 0;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#projects article {
+    background: pink;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+#projects article img {
+    width: 100%;
+}
+
+#contacts {
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+}
+
+#contacts {
+    padding: 1em 0;
+}
+
+#contacts a:hover {
+    background: pink;
+    opacity: 50%;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: seagreen;
+    color: #333333;
+    padding: 1em 0;
+    text-align: center;
+}

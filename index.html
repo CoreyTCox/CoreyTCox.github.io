@@ -1,39 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>COREY COX PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
-    
+
     <header>
-        <h1>Corey's Portfolio </h1>
-        <span></span>
+        <section id="home">
+            <h1>Corey Cox Portfolio</h1>
+            <span>Software Development</span>
+        </section>
     </header>
 
     <main>
-        <section>
-            <h2>About Us</h2>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <img src="/images/profile.jpg" alt="profile photo" style="width: 200px; height: auto;">
+            <h3>Bio</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus consequat blandit. Ut dictum
+                ultricies porta. Curabitur massa dui, lobortis ac suscipit nec, commodo non ipsum. Maecenas vehicula
+                nunc ex, in luctus velit lobortis at. Duis semper ultrices ligula, venenatis rhoncus tellus efficitur
+                eget. Vivamus sodales libero augue, in pulvinar ante venenatis eu. Duis non condimentum enim, vitae
+                bibendum leo. Donec tincidunt justo vel diam posuere facilisis. Nunc vitae orci vitae nulla venenatis
+                varius. Nulla id lacus gravida, interdum magna non, fermentum neque. </p>
+            <h3>Skills</h3>
+            <p>C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD •
+                Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs • Responsive
+                Design / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control /
+                GitHub</p>
         </section>
-        <section>
-            <h2>Our Products</h2>
+        <section id="my-projects">
+            <h2>My Projects</h2>
+            <p>below are projects i've worked on. what i am working on, and what i plan to work on</p>
+            <div id="projects">
+                <article>
+                    <h3>Virtual Pet Shelter</h3>
+                    <a href="virtualpetlink"><img src="/images/virtualpet.png"></a>
+                    <p>description of virtual pet</p>
+                </article>
+                <article>
+                    <h3>Restaurant Reviews</h3>
+                    <a href="restuarantreviewlink"><img src="/images/restaurantreview.png"></a>
+                    <p>description of restaurant review</p>
+                </article>
+                <article>
+                    <h3>Company payroll</h3>
+                    <a href="companypayrolllink"><img src="/images/companypayroll.png"></a>
+                    <p>description of company payroll</p>
+                </article>
+            </div>
         </section>
-        <section>
-            <h2>Special Events</h2>
-        </section>
-        <section>
-            <h2>Get In Touch</h2>
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <div id="contacts">
+                <a href="mailto:coxcorey19@gmail.com" target="_blank"><img src="/images/email.png" al
+                        style="width: 140px; height: 100px;"></a>
+                <a href="https://www.linkedin.com/in/corey-cox-6b894b151/" target="_blank"><img
+                        src="/images/linkedin.png" alt="LinkedIn" style="width: 100px; height: 100px;"></a>
+                <a href="https://github.com/CoreyTCox" target="_blank"><img src="/images/github.png" alt="GitHub"
+                        style="width: 100px; height: 100px;"></a>
+            </div>
         </section>
     </main>
 
     <nav>
-        <a href="#"></a>
+        <a href="#home">Home</a>
+        <a href="#about-me">About Me</a>
+        <a href="#my-projects">My Projects</a>
+        <a href="#contact-me">Contact Me</a>
     </nav>
 
     <footer>
-        &copy; 2018 Code Business
+        <p>~We Can Code IT '20~</p>
     </footer>
 </body>
+
 </html>
