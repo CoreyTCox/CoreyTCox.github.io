@@ -102,8 +102,8 @@ justify-content: space-between;
 }
 
 #contacts a:hover {
-    background: pink;
-    opacity: 50%;
+    /*background: pink;
+    opacity: 50%;*/
 }
 
 footer {
