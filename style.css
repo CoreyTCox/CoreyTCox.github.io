@@ -61,25 +61,26 @@ header div {
 #profile-photo {
     display: flex;
     justify-content: center;
-    padding: 1em 0;
+    margin: 1em 0;
     /* border: 5px solid pink; */
     /* background: pink; */
 }
 
 section {
     margin: 1em 0;
-    padding-top: 2em;
-    min-height: 10em;
+    /* padding-top: 2em; */
+    /* min-height: 10em; */
     text-align: center;
 }
 
-section > p {
-    margin: 1em 0;
+#my-projects {
+    margin: 2em 0;
 }
 
 #skills p {
-    font-weight: 700;
+    font-weight: 900;
 }
+
 #projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -103,15 +104,20 @@ flex-flow: row;
 justify-content: space-between;
 }
 
-#contacts {
-    padding: 1em 0;
+#bio,
+#skills {
+    margin: 1em 0;
+}
+
+#contact-me {
+    margin: 2em 0;
 }
 
 footer {
-    margin-top: 2em;
-    margin-bottom: 1em;
+    /* margin-top: 2em;
+    margin-bottom: 1em; */
     background: seagreen;
     color: #333333;
-    padding: 1em 0;
+    /* padding: 1em 0; */
     text-align: center;
 }
