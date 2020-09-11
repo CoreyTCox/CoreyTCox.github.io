@@ -49,6 +49,10 @@ footer {
     margin: 0em;
 }
 
+#home div {
+    color: pink;
+}
+
 header h1 {
     font-size: 3em;
 }
@@ -64,6 +68,11 @@ header div {
     margin: 1em 0;
     /* border: 5px solid pink; */
     /* background: pink; */
+}
+
+#profile-photo img {
+    border: 5px solid seagreen;
+    border-radius: 50%;
 }
 
 section {
