@@ -101,6 +101,7 @@ section {
     background: pink;
     padding: 1em;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 #projects article img {
