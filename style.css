@@ -152,6 +152,12 @@ flex-flow: row;
 justify-content: space-between;
 }
 
+#contacts a:hover{
+    height: 107.333px;
+    border-bottom: 4px solid pink;
+    transition: .2s;
+}
+
 #bio,
 #skills {
     margin: 1em 0;
