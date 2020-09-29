@@ -116,7 +116,6 @@ section {
 
 .project:hover .overlay {
     opacity: .9;
-    /* cursor: pointer; */
 }
 
 .overlay-text {
@@ -168,10 +167,7 @@ justify-content: space-between;
 }
 
 footer {
-    /* margin-top: 2em;
-    margin-bottom: 1em; */
     background: seagreen;
     color: #333333;
-    /* padding: 1em 0; */
     text-align: center;
 }
